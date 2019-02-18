@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item android:id="@+id/document"
+            android:icon="@drawable/ic_document"
+            android:title="OD Application" />
+        <item android:id="@+id/status"
+            android:icon="@drawable/ic_status"
+            android:title="Status" />
+        <item android:id="@+id/help"
+            android:icon="@drawable/ic_help"
+            android:title="Help" />
+        <item android:id="@+id/aboutus"
+            android:icon="@drawable/ic_aboutus"
+            android:title="About us" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/ic_share" />
+        </menu>
+    </item>
+
+</menu>

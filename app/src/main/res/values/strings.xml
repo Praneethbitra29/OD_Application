@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">OD APPLICATION</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="contact"><i><b>Send Us Your Phone Number,\n We Will Contact You.......\n\n</b></i></string>
+    <string name="rgukt">
+        \n<font fgcolor="#4786be" size="23"><u><b>RGUKT Objectives</b></u></font>\n\n<b>The primary objective of establishing RGUKT was to provide high quality educational opportunities for the aimed rural youth of Andhra Pradesh. The initial goal was that at least the top 1 % of the rural graduates would be given the opportunity to study at RGUKT.</b>
+        \n\n<b>The top 1% of rural graduates is around 6,000 to 7,000 per year. Thus, the three campuses would need residential accommodation for about 36,000 students for the six year integrated program.</b>\n\n<font fgcolor="#4786be" size="23"><u><b>Objectives of the University</b></u></font>\n\n
+        <b>1.To impart to each student broad skills of Learning to Learn, Learning to Think and Learning to Live.\n\n
+    2.To reinforce core values of integrity, respect for all, and care for environment.\n\n
+    3.To disseminate and advance knowledge in the emerging fields such as Information Technology, Nanotechnology, etc\.\.\.\n\n
+    4.To make special provisions for integrated courses including Humanities, Social Sciences and other interdisciplinary areas to impart broad-based education including soft skills.\n\n
+    5.To function as a resource center for knowledge management and entrepreneurship development in the emerging technologies.\n\n
+            6.To establish close linkage with industry to make teaching and research at the institutes relevant to the needs of the economy, at national and global levels.\n\n</b>
+
+    </string>
+    <string name="home">HOME</string>
+    <string name="textview">TextView</string>
+    <string name="tgukthome">rgukt</string>
+    <string name="help">To get OD Application open the side drawer and click on OD Application. </string>
+
+    <string name="todo">TODO</string>
+    <string name="error">Error</string>
+    <string name="eroorr">please enter the correct details</string>
+    <string name="Help_Questions">
+        <b>\n1.How to Apply Original Application?\n</b>
+        Ans:- Dear User, Just open the OD Application Tab and fill the all fields to register for
+                the Original Degree.
+        <b>\n\n2.How to contact us?\n</b>
+        Ans:- Dear User, Below the page there will be a option called ContactUs. Select the option
+                and Enter your PhoneNumber we will contact you.
+        <b>\n\n3.Problem with the Status!\n</b>
+        Ans:- The status will be updated, when all details of your\'s are verificed it will be updated
+                 the minimum time required is 5 days.\n\n\n\n
+    </string>
+    <string name="Aboutus_credits">
+        \nB.Praneeth\nB.Sushma\nS.Usha\nP.Pushpa\n
+    </string>
+</resources>

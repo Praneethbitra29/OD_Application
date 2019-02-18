@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DocumentAddressActivity"
+    android:paddingTop="20dp"
+    android:paddingLeft="15dp">
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textAlignment="center"
+        android:textColor="#4786be"
+        android:textSize="35dp" />
+
+    <ScrollView
+        android:layout_below="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="15dp"
+        android:background="@drawable/common_google_signin_btn_text_light_normal_background"
+        android:paddingTop="10dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/houseno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Flat /House /Plot No"
+                    android:textColor="#000000"
+                    android:textSize="17dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/edit_houseno"
+                    android:layout_width="321dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/streetname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Street Name"
+                    android:textColor="@android:color/black"
+                    android:textSize="17dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/edit_streetname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/locality"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Locality"
+                    android:textColor="@android:color/black"
+                    android:textSize="17dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/edit_locality"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="City /Town /Village"
+                    android:textColor="@android:color/black"
+                    android:textSize="17dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/edit_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/state"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="State"
+                    android:textColor="@android:color/black"
+                    android:textSize="17dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/edit_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/pincode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pincode"
+                    android:textColor="@android:color/black"
+                    android:textSize="17dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/edit_pincode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="6" />
+
+            </TableRow>
+
+            <TextView
+                android:id="@+id/address_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="17dp" />
+
+            <TableRow android:paddingTop="30dp">
+
+                <Button
+                    android:id="@+id/addresssubmit"
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/myowngradiant"
+                    android:text="Proceed"
+                    android:textAlignment="center"
+                    android:textSize="20dp" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

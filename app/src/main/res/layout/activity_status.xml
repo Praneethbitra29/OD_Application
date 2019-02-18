@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20sp"
+    android:background="@android:color/white"
+    android:paddingLeft="10sp">
+
+    <ScrollView
+        android:id="@+id/scrollview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp">
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow android:paddingTop="25dp"
+            android:paddingLeft="115dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STATUS"
+                android:textColor="#4786be"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+    <TableRow android:paddingTop="25dp">
+
+        <TextView
+            android:id="@+id/status_pcnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:text="Order Number"
+            android:textColor="@android:color/black"
+            android:textSize="17dp" />
+
+        <EditText
+            android:inputType="text"
+            android:textAlignment="center"
+            android:id="@+id/status_edit_pcnumber"
+            android:layout_width="190dp"
+            android:layout_height="40dp" />
+
+    </TableRow>
+        <TableRow android:paddingTop="25dp">
+
+            <TextView
+                android:id="@+id/status_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="Password"
+                android:textColor="@android:color/black"
+                android:textSize="17dp" />
+
+                <EditText
+                    android:inputType="textPassword"
+                    android:textAlignment="center"
+                    android:id="@+id/status_edit_password"
+                    android:layout_width="190dp"
+                    android:layout_height="40dp" />
+
+            </TableRow>
+
+        <TableRow
+            android:paddingLeft="100dp"
+            android:paddingTop="50dp"
+            android:paddingBottom="30dp">
+
+            <Button
+                android:id="@+id/getstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/myowngradiant"
+                android:text="SUBMIT"
+                android:textAlignment="center"
+                android:textSize="20dp"
+               />
+        </TableRow>
+
+
+            <TextView
+                android:id="@+id/statuserror"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+    </TableLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

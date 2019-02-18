@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@android:color/white"
+tools:context=".PaymentActivity"
+    android:paddingTop="80dp">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+        android:padding="30sp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp">
+
+
+            <ImageView
+                android:layout_width="53dp"
+                android:layout_height="44dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:src="@drawable/ic_person" />
+
+            <EditText
+                android:id="@+id/edit_homepcnumber"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="74dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="74dp"
+                android:hint="PC Number"
+                android:inputType="text"
+                android:textAlignment="center" />
+
+            <ProgressBar
+                android:id="@+id/homepcnumberprogressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/codelayout">
+
+
+            <ImageView
+                android:layout_width="53dp"
+                android:layout_height="44dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="14dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="14dp"
+                android:src="@drawable/ic_lock" />
+            <EditText
+                android:id="@+id/edit_verifycode"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="74dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="74dp"
+                android:hint="Enter Code"
+                android:inputType="text"
+                android:textAlignment="center" />
+
+            <ProgressBar
+                android:id="@+id/verifyprogressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/homeerror"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20dp"
+        android:text="Note: For Verification Mobile Number related to PC Number should be present."/>
+
+    <Button
+        android:id="@+id/proceed"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/myowngradiant"
+        android:text="Send Verification"
+        android:textSize="17dp" />
+
+</LinearLayout>
+
+</ScrollView>
